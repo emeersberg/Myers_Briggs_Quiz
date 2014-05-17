@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Myers Briggs Quiz</title>
+  <link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Passion+One' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="resetcss.css" type="text/css"/>
+  <link rel="stylesheet" href="style.css" type="text/css"/>
+  <link rel="icon" type="image/png" href="images/icon.ico">
+  
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script type="text/javascript" src="application.js"></script>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="header">
+			<h1>MYERS BRIGGS</h1>
+			<h2>Personality Quiz</h2>
+		</div>
+		<div class="content">
+			<div class="intro_page">
+				<div class="instructions">
+					<div class="instructions_w">
+						<p>INSTRUCTIONS:</p>
+						<p>You will be asked a series of 20 yes or no questions during the course of this quiz.  
+							Please answer each question based on your typical behavior for the given scenario.  
+							At the end of the quiz, you will be given 1 of 16 different personality results and a short description of that personality profile.  
+							Enjoy!
+						</p>
+					</div>
+					<img src="images\cognitiveFunctions.png">
+					<div class="start_quiz">
+						<p>Start Quiz!</p>
+					</div>
+				</div>
+			</div>
+			<div id="question_w" class="questions">
+				<div class="question_header">
+					<h1>Question 1 of 2</h1>
+				</div>
+				<div id="1" class="question">
+					<p>1) You don't mind being the center of attention.</p>
+					<div class="yes 2 button">
+						<p>YES</p>
+					</div>
+					<div class="no 1 button">
+						<p>NO</p>
+					</div>
+				</div>
+				<div id="2" class="question">
+					<p>2) You work better alone than in groups.</p>
+					<div class="yes 1 button">
+						<p>YES</p>
+					</div>
+					<div class="no 2 button">
+						<p>NO</p>
+					</div>
+				</div>
+				<div id="3" class="question">
+					<p>3) You make friends easily.</p>
+					<div class="yes 2 button">
+						<p>YES</p>
+					</div>
+					<div class="no 1 button">
+						<p>NO</p>
+					</div>
+				</div>
+				<div id="4" class="question">
+					<p>4) Watching TV, reading a book, or a video game is better than a social event.</p>
+					<div class="yes 1 button">
+						<p>YES</p>
+					</div>
+					<div class="no 2 button">
+						<p>NO</p>
+					</div>
+				</div>
+				<div id="5" class="question">
+					<p>5) You enjoy having a wide circle of acquaintances.</p>
+					<div class="yes 2 button">
+						<p>YES</p>
+					</div>
+					<div class="no 1 button">
+						<p>NO</p>
+					</div>
+				</div>
+				<div id="6" class="question">
+					<p>6) You're more down to earth than you are a dreamer.</p>
+					<div class="yes 4 button">
+						<p>YES</p>
+					</div>
+					<div class="no 3 button">
+						<p>NO</p>
+					</div>
+				</div>
+				<div id="7" class="question">
+					<p>7) Ideas are often more important than real things.</p>
+					<div class="yes 3 button">
+						<p>YES</p>
+					</div>
+					<div class="no 4 button">
+						<p>NO</p>
+					</div>
+				</div>
+				<div id="8" class="question">
+					<p>8) Strict observance of the established rules is likely to prevent a good outcome.</p>
+					<div class="yes 4 button">
+						<p>YES</p>
+					</div>
+					<div class="no 3 button">
+						<p>NO</p>
+					</div>
+				</div>
+				<div id="9" class="question">
+					<p>9) You think about how current events are influencing the future.</p>
+					<div class="yes 3 button">
+						<p>YES</p>
+					</div>
+					<div class="no 4 button">
+						<p>NO</p>
+					</div>
+				</div>
+				<div id="10" class="question">
+					<p>10) You get bored if you have to read theoretical books.</p>
+					<div class="yes 4 button">
+						<p>YES</p>
+					</div>
+					<div class="no 3 button">
+						<p>NO</p>
+					</div>
+				</div>
+				<div id="11" class="question">
+					<p>11) You are not prone to mood swings.</p>
+					<div class="yes 5 button">
+						<p>YES</p>
+					</div>
+					<div class="no 6 button">
+						<p>NO</p>
+					</div>
+				</div>
+				<div id="12" class="question">
+					<p>12) Your actions are usually influenced by feelings.</p>
+					<div class="yes 6 button">
+						<p>YES</p>
+					</div>
+					<div class="no 5 button">
+						<p>NO</p>
+					</div>
+				</div>
+				<div id="13" class="question">
+					<p>13) You rarely feel insecure.</p>
+					<div class="yes 5 button">
+						<p>YES</p>
+					</div>
+					<div class="no 6 button">
+						<p>NO</p>
+					</div>
+				</div>
+				<div id="14" class="question">
+					<p>14) It's difficult to hide your feelings.</p>
+					<div class="yes 6 button">
+						<p>YES</p>
+					</div>
+					<div class="no 5 button">
+						<p>NO</p>
+					</div>
+				</div>
+				<div id="15" class="question">
+					<p>15) Justice is more important than mercy.</p>
+					<div class="yes 5 button">
+						<p>YES</p>
+					</div>
+					<div class="no 6 button">
+						<p>NO</p>
+					</div>
+				</div>
+				<div id="16" class="question">
+					<p>16) You can't stand chaos.</p>
+					<div class="yes 7 button">
+						<p>YES</p>
+					</div>
+					<div class="no 8 button">
+						<p>NO</p>
+					</div>
+				</div>
+				<div id="17" class="question">
+					<p>17) You are often indecisive.</p>
+					<div class="yes 8 button">
+						<p>YES</p>
+					</div>
+					<div class="no 7 button">
+						<p>NO</p>
+					</div>
+				</div>
+				<div id="18" class="question">
+					<p>18) Your house is usually organized and clean.</p>
+					<div class="yes 7 button">
+						<p>YES</p>
+					</div>
+					<div class="no 8 button">
+						<p>NO</p>
+					</div>
+				</div>
+				<div id="19" class="question">
+					<p>19) You often do things spontaneously rather than having a plan.</p>
+					<div class="yes 8 button">
+						<p>YES</p>
+					</div>
+					<div class="no 7 button">
+						<p>NO</p>
+					</div>
+				</div>
+				<div id="20" class="question">
+					<p>20) You like following a to do list more than keeping your options open.</p>
+					<div class="yes 7 button">
+						<p>YES</p>
+					</div>
+					<div class="no 8 button">
+						<p>NO</p>
+					</div>
+				</div>
+				<div class="question_footer">
+					<p></p>
+				</div>
+			</div>
+			<div class="result_page">
+				<div id="ISTJ" class="result">
+					<h1>Your Result: ISTJ - The Duty Fulfiller</h1>
+					<h2>Introverted | Sensing | Thinking | Judging</h2>
+					<p>Quiet, serious, earn success by thoroughness and dependability. 
+					Practical, matter-of-fact, realistic, and responsible. 
+					Decide logically what should be done and work toward it steadily, regardless of distractions. 
+					Take pleasure in making everything orderly and organized their work, their home, their life. 
+					Value traditions and loyalty.</p>
+				</div>
+				<div id="ISFJ" class="result">
+					<h1>Your Result: ISFJ - The Nurturer</h1>
+					<h2>Introverted | Sensing | Feeling | Judging</h2>
+					<p>Quiet, friendly, responsible, and conscientious. 
+					Committed and steady in meeting their obligations. 
+					Thorough, painstaking, and accurate. 
+					Loyal, considerate, notice and remember specifics about people who are important to them, concerned with how others feel. 
+					Strive to create an orderly and harmonious environment at work and at home.</p>
+				</div>
+				<div id="INFJ" class="result">
+					<h1>Your Result: INFJ - The Protector</h1>
+					<h2>Introverted | iNtuitive | Feeling | Judging</h2>
+					<p>Seek meaning and connection in ideas, relationships, and material possessions. 
+					Want to understand what motivates people and are insightful about others. 
+					Conscientious and committed to their firm values. 
+					Develop a clear vision about how best to serve the common good. 
+					Organized and decisive in implementing their vision.</p>
+				</div>
+				<div id="INTJ" class="result">
+					<h1>Your Result: INTJ - The Scientist</h1>
+					<h2>Introverted | iNtuitive | Thinking | Judging</h2>
+					<p>Have original minds and great drive for implementing their ideas and achieving their goals. 
+					Quickly see patterns in external events and develop long-range explanatory perspectives. 
+					When committed, organize a job and carry it through. Skeptical and independent, 
+					have high standards of competence and performance for themselves and others.</p>
+				</div>
+				<div id="ISTP" class="result">
+					<h1>Your Result: ISTP - The Mechanic</h1>
+					<h2>Introverted | Sensing | Thinking | Perceiving</h2>
+					<p>Tolerant and flexible, quiet observers until a problem appears, then act quickly to find workable solutions. 
+					Analyze what makes things work and readily get through large amounts of data to isolate the core of practical problems. 
+					Interested in cause and effect, organize facts using logical principles, value efficiency.</p>
+				</div>
+				<div id="ISFP" class="result">
+					<h1>Your Result: ISFP - The Artist</h1>
+					<h2>Introverted | Sensing | Feeling | Perceiving</h2>
+					<p>Quiet, friendly, sensitive, and kind. Enjoy the present moment, what's going on around them. 
+					Like to have their own space and to work within their own time frame. 
+					Loyal and committed to their values and to people who are important to them. 
+					Dislike disagreements and conflicts, do not force their opinions or values on others.</p>
+				</div>
+				<div id="INFP" class="result">
+					<h1>Your Result: INFP - The Idealist</h1>
+					<h2>Introverted | iNtuitive | Feeling | Perceiving</h2>
+					<p>Idealistic, loyal to their values and to people who are important to them. 
+					Want an external life that is congruent with their values. 
+					Curious, quick to see possibilities, can be catalysts for implementing ideas. 
+					Seek to understand people and to help them fulfill their potential. 
+					Adaptable, flexible, and accepting unless a value is threatened.</p>
+				</div>
+				<div id="INTP" class="result">
+					<h1>Your Result: INTP - The Thinker</h1>
+					<h2>Introverted | iNtuitive | Thinking | Perceiving</h2>
+					<p>Seek to develop logical explanations for everything that interests them. 
+					Theoretical and abstract, interested more in ideas than in social interaction. 
+					Quiet, contained, flexible, and adaptable. 
+					Have unusual ability to focus in depth to solve problems in their area of interest. 
+					Skeptical, sometimes critical, always analytical.</p>
+				</div>
+				<div id="ESTP" class="result">
+					<h1>Your Result: ESTP - The Doer</h1>
+					<h2>Extraverted | Sensing | Thinking | Perceiving</h2>
+					<p>Flexible and tolerant, they take a pragmatic approach focused on immediate results. 
+					Theories and conceptual explanations bore them - they want to act energetically to solve the problem. 
+					Focus on the here-and-now, spontaneous, enjoy each moment that they can be active with others. 
+					Enjoy material comforts and style. Learn best through doing</p>
+				</div>
+				<div id="ESFP" class="result">
+					<h1>Your Result: ESFP - The Performer</h1>
+					<h2>Extraverted | Sensing | Feeling | Perceiving</h2>
+					<p>Outgoing, friendly, and accepting. 
+					Exuberant lovers of life, people, and material comforts. 
+					Enjoy working with others to make things happen. 
+					Bring common sense and a realistic approach to their work, and make work fun. 
+					Flexible and spontaneous, adapt readily to new people and environments. 
+					Learn best by trying a new skill with other people.</p>
+				</div>
+				<div id="ENFP" class="result">
+					<h1>Your Result: ENFP - The Inspirer</h1>
+					<h2>Extraverted | iNtuitive | Feeling | Perceiving</h2>
+					<p>Warmly enthusiastic and imaginative. 
+					See life as full of possibilities. 
+					Make connections between events and information very quickly, and confidently proceed based on the patterns they see. 
+					Want a lot of affirmation from others, and readily give appreciation and support. 
+					Spontaneous and flexible, often rely on their ability to improvise and their verbal fluency.</p>
+				</div>
+				<div id="ENTP" class="result">
+					<h1>Your Result: ENTP - The Visionary</h1>
+					<h2>Extraverted | iNtuitive | Thinking | Perceiving</h2>
+					<p>Quick, ingenious, stimulating, alert, and outspoken. 
+					Resourceful in solving new and challenging problems. 
+					Adept at generating conceptual possibilities and then analyzing them strategically. 
+					Good at reading other people. 
+					Bored by routine, will seldom do the same thing the same way, apt to turn to one new interest after another.</p>
+				</div>
+				<div id="ESTJ" class="result">
+					<h1>Your Result: ESTJ - The Guardian</h1>
+					<h2>Extraverted | Sensing | Thinking | Judging</h2>
+					<p>Practical, realistic, matter-of-fact. 
+					Decisive, quickly move to implement decisions. 
+					Organize projects and people to get things done, focus on getting results in the most efficient way possible. 
+					Take care of routine details. 
+					Have a clear set of logical standards, systematically follow them and want others to also. 
+					Forceful in implementing their plans.</p>
+				</div>
+				<div id="ESFJ" class="result">
+					<h1>Your Result: ESFJ - The Caregiver</h1>
+					<h2>Extraverted | Sensing | Feeling | Judging</h2>
+					<p>Warmhearted, conscientious, and cooperative. 
+					Want harmony in their environment, work with determination to establish it. 
+					Like to work with others to complete tasks accurately and on time. 
+					Loyal, follow through even in small matters. 
+					Notice what others need in their day-by-day lives and try to provide it. 
+					Want to be appreciated for who they are and for what they contribute.</p>
+				</div>
+				<div id="ENFJ" class="result">
+					<h1>Your Result: ENFJ - The Giver</h1>
+					<h2>Extraverted | iNtuitive | Feeling | Judging</h2>
+					<p>Warm, empathetic, responsive, and responsible. 
+					Highly attuned to the emotions, needs, and motivations of others. 
+					Find potential in everyone, want to help others fulfill their potential. 
+					May act as catalysts for individual and group growth. 
+					Loyal, responsive to praise and criticism. 
+					Sociable, facilitate others in a group, and provide inspiring leadership.</p>
+				</div>
+				<div id="ENTJ" class="result">
+					<h1>Your Result: ENTJ - The Executive</h1>
+					<h2>Extraverted | iNtuitive | Thinking | Judging</h2>
+					<p>Frank, decisive, assume leadership readily. 
+					Quickly see illogical and inefficient procedures and policies, 
+					develop and implement comprehensive systems to solve organizational problems. 
+					Enjoy long-term planning and goal setting. 
+					Usually well informed, well read, enjoy expanding their knowledge and passing it on to others. 
+					Forceful in presenting their ideas.</p>
+				</div>
+				<div class="start_quiz">
+					<p>Retake Quiz!</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
