@@ -66,8 +66,8 @@ $(document).ready(function() {
 	}
 	
 	function calcRank () {
-		if (introvert_cnt < extrovert_cnt) {introvert = "Extroverted";q1="I";} 
-		else if (introvert_cnt > extrovert_cnt) {introvert = "Introverted";q1="E";} 
+		if (introvert_cnt < extrovert_cnt) {introvert = "Extroverted";q1="E";} 
+		else if (introvert_cnt > extrovert_cnt) {introvert = "Introverted";q1="I";} 
 		else {introvert = "?";}
 		
 		if (intuition_cnt < sensing_cnt) {intuition = "Sensing";q2="S";} 
